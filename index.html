@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Google Calendar</title>
+    <!-- Include Pretendard Font -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/pretendard@latest/css/pretendard.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Calendar Container -->
+<div id="calendar-container">
+    <div id="calendar" class="calendar">
+        <!-- Calendar content will be dynamically generated here -->
+    </div>
+</div>
+
+<!-- Event form (for adding/editing events) -->
+<div id="event-form" class="event-form">
+    <h3>Event Details</h3>
+    <label for="event-title">Event Title:</label>
+    <input type="text" id="event-title" name="event-title">
+    <button id="save-event-btn">Save Event</button>
+    <button id="close-event-btn">Close</button>
+</div>
+
+<script src="calendar.js"></script>
+</body>
+</html>
